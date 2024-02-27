@@ -1,11 +1,13 @@
 import logo from './logo.svg';
+import GlobalStyles from './styles/GlobalStyles';
 
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <GlobalStyles/>
     APp File
-    </div>
+    </>
   );
 }
 
