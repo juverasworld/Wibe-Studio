@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import MainVideo from "../assets/Walking Girl.mp4";
+import MainVideo from "../assets/walkingGirl.webm";
 
 const VideoContainer = styled.section`
   width: 100%;

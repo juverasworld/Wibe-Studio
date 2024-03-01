@@ -18,7 +18,8 @@ const NavContainer = styled(motion.div)`
 const MenuItems = styled(motion.ul)`
   position: relative;
   height: ${(props) => props.theme.navHeight};
-  background-color: ${(props) => props.theme.body};
+  background-color: ${(props) => `rgba(${props.theme.bodyRgba}, 0.7)`};
+
   color: ${(props) => props.theme.text};
   list-style: none;
 
