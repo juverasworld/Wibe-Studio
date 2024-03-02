@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import React from "react";
+
 import { useEffect } from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 
@@ -28,7 +28,7 @@ const ScrollTriggerProxy = () => {
           };
         },
 
-        pinType: document.querySelector(element).style.transform ? "transform" :"fixed"
+        pinType: element.style.transform ? "transform" :"fixed"
       });
     }
 
