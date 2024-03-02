@@ -137,7 +137,7 @@ const Shop = () => {
           scroller: ".App",
           scrub: true,
           pin: true,
-          markers: true,
+        
         },
         height: `${scrollingElement.scrollWidth}px`,
         ease: "none",
@@ -150,7 +150,7 @@ const Shop = () => {
           scroller: ".App",
           scrub: true,
           //   pin: true,
-          markers: true,
+          // markers: true,
         },
         x: -pinWrapWidth,
         ease: "none",
