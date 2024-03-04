@@ -11,6 +11,7 @@ import About from "./section/About";
 import Shop from "./section/Shop";
 import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
 import Banner from "./section/Banner";
+import NewArrival from "./section/NewArrival";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
          <About/>
          <Shop/>
          <Banner/>
+         <NewArrival/>
           </main>
         </AnimatePresence>
         </LocomotiveScrollProvider>
