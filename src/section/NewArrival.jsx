@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-
-import img1 from "../assets/Images/1.webp";
-import img2 from "../assets/Images/2.webp";
-import img3 from "../assets/Images/3.webp";
-import img4 from "../assets/Images/4.webp";
+import img1 from "../assets/Images/11.webp";
+import img2 from "../assets/Images/12.webp";
+import img3 from "../assets/Images/13.webp";
+import img4 from "../assets/Images/14.webp";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -68,30 +67,19 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
- 
 `;
 
-const Item = styled(motion.div)`
-  width: 20rem;
-  margin-right: 6rem;
-
+const Item = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5rem 0;
 
   img {
     width: 100%;
     height: auto;
-    cursor: pointer;
-  }
-  h1 {
-    display: inline-block;
-    width: fit-content;
-    font-weight: 500;
-    text-align: center;
-    cursor: pointer;
+    z-index: 5;
   }
 `;
 
@@ -122,12 +110,11 @@ const NewArrival = () => {
         New Arrivals
       </Title>
 
-      <Container >
+      <Container>
         <Product img={img1} title="Man Basic" />
         <Product img={img2} title="Tops" />
         <Product img={img3} title="Sweatshirts " />
         <Product img={img4} title="Ethnic Wear" />
-        
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
