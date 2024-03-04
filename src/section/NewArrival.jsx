@@ -23,7 +23,7 @@ const Section = styled.section`
 const Overlay = styled.div`
   position: absolute;
   top: 50%;
-  // left:50%;
+//   left:50%;
   // right:50%;
   tranform: translate(-50%, -50%);
   width: 30vw;
@@ -57,7 +57,7 @@ const Text = styled.div`
 const Container = styled.div`
   position: absolute;
   top: 0%;
-  left: 50%;
+//   left: 50%;
   tranform: translate(-50%, 0);
   width: 25vw;
   height: auto;
@@ -86,15 +86,10 @@ const Item = styled.div`
 const Product = ({ img, title = "" }) => {
   return (
     <Item
-      initial={{ filter: "grayscale(100%)" }}
-      whileInView={{ filter: "grayscale(0%)" }}
-      transition={{
-        duration: 0.5,
-      }}
-      viewport={{ once: false, amount: "all" }}
+    
     >
       <img src={img} alt={title} />
-      <h1>{title}</h1>
+      <h2>{title}</h2>
     </Item>
   );
 };
